@@ -1,0 +1,39 @@
+#main {
+    padding-top: calc 74px;
+}
+@media (min-width: 992px) {
+  #main {
+    padding-top: 104px;
+    }
+}
+
+@font-face{
+    font-family: "Header Font"
+    src:
+
+}
+
+.dt-bg-primary {
+    background-color: #f35a5a;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .2s, color .2s;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #f35a5a;
+    border-color: #f35a5a;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    background: none;
+    color: #fffff0;
+    border-color: #f35a5a;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active:hover {
+    background: none;
+    color: #f35a5a;
+}
